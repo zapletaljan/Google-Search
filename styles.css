@@ -102,3 +102,8 @@ a:hover {
     font-family: 'Product Sans', sans-serif;
     font-size: 18px;
 }
+footer {
+    display: flex;
+    justify-self: center;
+    margin-top: 180px;
+}
