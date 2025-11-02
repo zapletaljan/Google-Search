@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Advanced Search</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Search</a>
+        <a href="image.html">Image Search</a>
+        <a href="advanced.html">Advanced Search</a>
+    </nav>
+
+    <div id="container">
+        <h3 id="title">Google</h3>
+        <p id="title" style="font-size:20px;">Advanced Search</p>
+        <form action="https://www.google.com/search">
+            <div class="advanced_container">
+                <div class="advanced_container2">
+                    <p class="title2">All these words:</p>
+                    <input class="input2" type="text" name="q">
+                </div>
+                <div class="advanced_container2">
+                    <p class="title2">Exact phrase:</p>
+                    <input class="input2" type="text" name="as_epq">
+                </div>
+                <div class="advanced_container2">
+                    <p class="title2">Any of these words:</p>
+                    <input class="input2" type="text" name="as_oq">
+                </div>
+                <div class="advanced_container2">
+                    <p class="title2">None of these words:</p>
+                    <input class="input2" type="text" name="as_eq">
+                </div>
+                <div class="advanced_container2">
+                    <p class="title2">Numbers from:</p>
+                    <input class="input2" style="width:300px" type="text" name="as_nlo">
+                    <p class="title2">to</p>
+                    <input class="input2" style="width:300px" type="text" name="as_nhi">
+                </div>
+                <div class="advanced_container2">
+                    <p class="title2">Site or domain:</p>
+                    <input class="input2" type="text" name="as_sitesearch">
+                </div>
+                <div id="button">
+                    <input type="submit" value="Google Search" class="button">
+                </div>
+            </div>
+        </form>
+    </div>
+    <footer>
+    </footer>
+</body>
+
+</html>
