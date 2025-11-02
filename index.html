@@ -4,22 +4,33 @@
 <head>
   <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Search</title>
 </head>
 
 <body>
+  <nav>
+    <div id="button">
+      <a href="index.html" class="button">Google</a>
+      <input type="submit" name="tbm-isch" value="Image Search" class="button">
+    </div>
+  </nav>
+
   <div id="container">
     <h3 id="title">Google</h3>
+
     <div id="searchbar">
       <form action="https://www.google.com/search">
+        <i class="fa-solid fa-magnifying-glass"></i>
         <input type="text" name="q" id="input">
+        <div id="button">
+          <input type="submit" value="Google Search" class="button">
+          <input type="submit" name="btnI" value="I'm Feeling Lucky" class="button">
+        </div>
+      </form>
     </div>
-    <div id="button">
-      <input type="submit" value="Google Search" class="button">
-      <input type="submit" name="btnI" value="I'm Feeling Lucky" class="button">
-      <input type="submit" name="btnI" value="Image Search" class="button"> DODELAT
-    </div>
-    </form>
   </div>
 
 </body>
